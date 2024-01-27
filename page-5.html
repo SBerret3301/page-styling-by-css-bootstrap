@@ -1,0 +1,237 @@
+<!-- This is an HTML document with the initial structure -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport configuration -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Linking Bootstrap CSS from a CDN (Content Delivery Network) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Linking Bootstrap JavaScript from a CDN with bundled dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- Document title -->
+    <title>page with css html bootstrap styling</title>
+</head>
+<style>
+/* CSS Styles for Responsive Images */
+div img[src] {
+    width: 100%;
+    height: 200px;
+}
+
+/* Styling for the first container (.c1) */
+.c1 {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top, white 1%, rgb(0, 0, 255) 99%);
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid rgb(218, 214, 214);
+}
+
+/* Styling for the inner div within the first container (.c1 div) */
+.c1 div {
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 5px black;
+    height: max-content;
+    width: max-content;
+    background-image: linear-gradient(white, rgb(137, 183, 236));
+    border-radius: 50%;
+    padding: 5px;
+    border-top: transparent;
+}
+
+/* Styling for anchor links pointing to #CSS */
+a[href="#CSS"] {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fdfdfd;
+    border: 1px solid rgb(15, 29, 92);
+    padding: 0px;
+}
+
+/* Styling for the inner div within anchor links pointing to #CSS (a[href="#CSS"] div) */
+a[href="#CSS"] div {
+    background-color: rgb(15, 29, 92);
+    width: 10%;
+    height: 100%;
+    border-radius: 0px 2px 2px 0px;
+    margin-left: 40px;
+}
+
+/* Styling for specific elements within .c2 */
+.c2 > a {
+    color: #002fff;
+}
+
+/* Styling for text with class .styling-txt */
+.styling-txt {
+    color: rgba(255, 166, 0, 0.877);
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+/* Styling for elements within #HTML, #HTML5, #CSS, #Animation, and #Divers */
+#HTML .d-flex,
+#HTML5 .d-flex,
+#CSS .d-flex,
+#Animation .d-flex,
+#Divers .d-flex {
+    border: 3px solid rgb(11, 211, 11);
+    border-top: none;
+    border-right: none;
+}
+
+/* Styling for elements with class .text-in */
+.text-in {
+    text-indent: 30px;
+    font-weight: 500;
+}
+
+/* Styling for anchor links pointing to #haut */
+a[href="#top"] {
+    margin-left: 60px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Styling for specific elements within .container-fluid .row */
+.container-fluid .row .img-style {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 15px;
+}
+
+</style>
+<body>
+<!-- Container for the entire page with a flexible, vertical layout -->
+<div class="container-fluid d-flex flex-column" id="top">
+    <!-- First content container with a stylized heading for CSS -->
+    <div class="c1">
+        <div>CSS</div>
+    </div>
+
+    <!-- Second content container with a flexible layout (.c2) -->
+    <div class="container-fluid d-flex c2" style="min-width: 100%;">
+        <!-- Navigation links for HTML, HTML5, CSS, Animation, and Divers -->
+        <a href="#HTML" class="btn rounded-start-0" style="min-width: 20%; background-color: rgb(190, 191, 192);"><b>HTML</b></a>
+        <a href="#HTML5" class="btn rounded-start-0" style="min-width: 20%; background-color: rgb(190, 191, 192);"><b>HTML5</b></a>
+        <a href="#CSS" class="btn rounded-start-0" style="min-width: 20%;">CSS <div></div></a>
+        <a href="#Animation" class="btn rounded-start-0" style="min-width: 20%; background-color: rgb(190, 191, 192);"><b>Animation</b></a>
+        <a href="#Divers" class="btn rounded-start-0" style="min-width: 20%; background-color: rgb(190, 191, 192);"><b>Divers</b></a>
+    </div>
+</div>
+
+<!-- Container for the entire page with top margin -->
+<div class="container-fluid mt-3">
+    <!-- Row containing two columns -->
+    <div class="row">
+        <!-- Left column (col-3) containing a set of images -->
+        <div class="col-3 d-flex justify-content-between align-items-center flex-column">
+            <img src="/CSS/css-ex/css_filetype_icon_177544.ico" alt="" class="img-style img-fluid">
+            <img src="social_html5_html_71.ico" alt="" class="img-style img-fluid">
+            <img src="/CSS/css-ex/css_filetype_icon_177544.ico" alt="" class="img-style img-fluid">
+            <img src="social_html5_html_71.ico" alt="" class="img-style img-fluid">
+            <img src="/CSS/css-ex/css_filetype_icon_177544.ico" alt="" class="img-style img-fluid">
+            <img src="social_html5_html_71.ico" alt="" class="img-style img-fluid">
+            <img src="/CSS/css-ex/css_filetype_icon_177544.ico" alt="" class="img-style img-fluid">
+            <img src="social_html5_html_71.ico" alt="" class="img-style img-fluid">
+            <img src="/CSS/css-ex/css_filetype_icon_177544.ico" alt="" class="img-style img-fluid">
+            <img src="social_html5_html_71.ico" alt="" class="img-style img-fluid">
+        </div>
+
+        <!-- Right column (col-9) containing content sections -->
+        <div class="col-9">
+            <!-- HTML content section -->
+            <div id="HTML" class="container-fluid">
+                <!-- Header with an image and styling text -->
+                <div class="container-fluid d-flex align-items-center">
+                    <img src="socialemailcircularbutton_80177.ico" alt="@" style="width: 20px; height: 20px;">
+                    <h4 class="styling-txt">HTML...</h4>
+                </div>
+                <!-- Paragraph with information about HTML -->
+                <p class="mt-4 text-in">
+                    HTML, or HyperText Markup Language, is the standard markup language for creating web pages. It provides the basic structure of a web page by using a system of tags to define elements such as headings, paragraphs, lists, links, images, and more. HTML allows developers to organize and format content on the web, making it an essential language for web development.
+                </p>
+            </div>
+
+            <!-- HTML5 content section -->
+            <div id="HTML5" class="container-fluid">
+                <!-- Header with an image and styling text -->
+                <div class="container-fluid d-flex align-items-center">
+                    <img src="socialemailcircularbutton_80177.ico" alt="@" style="width: 20px; height: 20px;">
+                    <h4 class="styling-txt">HTML5...</h4>
+                </div>
+                <!-- Paragraph with information about HTML5 -->
+                <p class="mt-4 text-in">
+                    HTML5 is the latest version of HTML (HyperText Markup Language), and it introduced several new features and improvements over its predecessors. It was designed to support multimedia, enhance the semantics of web pages, and make it easier for developers to create modern and interactive websites.
+                </p>
+            </div>
+
+            <!-- CSS content section -->
+            <div id="CSS" class="container-fluid">
+                <!-- Header with an image and styling text -->
+                <div class="container-fluid d-flex align-items-center">
+                    <img src="socialemailcircularbutton_80177.ico" alt="@" style="width: 20px; height: 20px;">
+                    <h4 class="styling-txt">CSS...</h4>
+                </div>
+                <!-- Paragraph with information about CSS -->
+                <p class="mt-4 text-in">
+                    CSS, or Cascading Style Sheets, is a style sheet language used to describe the presentation of a document written in HTML or XML. It allows web developers to control the layout, appearance, and style of multiple web pages at once. CSS separates the structure and content of a web page from its visual presentation, enabling consistent styling across an entire website.
+                </p>
+            </div>
+
+            <!-- Animation content section -->
+            <div id="Animation" class="container-fluid">
+                <!-- Header with an image and styling text -->
+                <div class="container-fluid d-flex align-items-center">
+                    <img src="socialemailcircularbutton_80177.ico" alt="@" style="width: 20px; height: 20px;">
+                    <h4 class="styling-txt">Animation...</h4>
+                </div>
+                <!-- Paragraph with information about CSS animations -->
+                <p class="mt-4 text-in">
+                    CSS (Cascading Style Sheets) animations allow web developers to create dynamic and visually appealing effects on web pages without the need for JavaScript or other scripting languages. CSS animations provide a way to change the style properties of an element smoothly over a specified duration.
+                </p>
+            </div>
+
+            <!-- Divers content section -->
+            <div id="Divers" class="container-fluid">
+                <!-- Header with an image and styling text -->
+                <div class="container-fluid d-flex align-items-center">
+                    <img src="socialemailcircularbutton_80177.ico" alt="@" style="width: 20px; height: 20px;">
+                    <h4 class="styling-txt">Divers...</h4>
+                </div>
+                <!-- Placeholder paragraph (Lorem Ipsum) -->
+                <p class="mt-4 text-in">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolorum fugiat repellendus voluptatibus quia! Earum, voluptates laudantium porro reprehenderit veniam nemo minima amet ipsam rerum, at alias expedita facere rem.
+                </p>
+            </div>
+
+            <!-- Link to navigate to the top of the page -->
+            <a href="#top">Back to Top</a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer section of the webpage -->
+<footer>
+    <!-- Container for the footer content with a black background, padding, and text styling -->
+    <div class="container-fluid bg-black py-3 text-light d-flex flex-column justify-content-center align-items-center">
+        <!-- Paragraph indicating the realization of HTML/CSS code -->
+        <p>HTML/CSS Code Implementation</p>
+        <!-- Paragraph indicating copyright information for TDI (Technical Institute) -->
+        <p>TDI &copy; 2023-2024</p>
+    </div>
+</footer>
+
+</body>
+</html>
